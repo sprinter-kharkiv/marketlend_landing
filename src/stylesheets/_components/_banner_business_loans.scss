@@ -1,0 +1,28 @@
+.banner {
+  height: 605px;
+  background: url("../img/background/banner_bg.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  text-align: center;
+  .main_title {
+    margin-top: 110px;
+    color: $main-light;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .slogan {
+    width: 60%;
+    margin: 50px auto 0;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+  }
+  .btn {
+    margin-top: 60px;
+    background-color: $main-light;
+    color: $grey-dark;
+    &:hover {
+      background-color: lighten($main-light, 20%);
+      //color: $grey-dark;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+$footer_height: 40px;
+.footer {
+  height: $footer_height;
+  background-color: $grey-dark;
+  .social {
+    float: right;
+    li {
+      display: inline-block;
+    }
+  }
+  .copyright {
+    padding-top: 15px;
+    color: #6e6e6f;
+    font-size: 12px;
+    a {
+      color: #6e6e6f;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
